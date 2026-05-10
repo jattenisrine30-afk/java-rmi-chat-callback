@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager">
+    <configuration name="1 - AccountServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="server.AccountServer" />
+      <module name="rmi-bank-v2" />
+      <method v="2"><option name="Make" enabled="true" /></method>
+    </configuration>
+    <configuration name="2 - TransferServer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="transfer.TransferServer" />
+      <module name="rmi-bank-v2" />
+      <method v="2"><option name="Make" enabled="true" /></method>
+    </configuration>
+    <configuration name="3 - BankClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="client.BankClient" />
+      <module name="rmi-bank-v2" />
+      <method v="2"><option name="Make" enabled="true" /></method>
+    </configuration>
+  </component>
+</project>
